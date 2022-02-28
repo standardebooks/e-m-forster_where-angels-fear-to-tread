@@ -6,33 +6,36 @@ body [xml|lang]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:poem"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
+[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-@supports(display: flex){
-	#chapter-6 p:nth-child(82){
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+@supports(display: inline-flex){
+	#chapter-6 > p > span{
 		align-items: center;
-		display: flex;
+		display: inline-flex;
 		text-indent: 0;
 	}
 
-	#chapter-6 p:nth-child(82) > span:nth-child(2){
+	#chapter-6 > p > span > span:nth-child(2){
 		font-size: 4em;
-		margin: 0 0.1em;
 	}
 
-	#chapter-6 p:nth-child(82) > span:last-child > span{
+	#chapter-6 > p > span > span:last-child > span{
 		display: block;
-	}
-
-	#chapter-6 p:last-child{
-		text-indent: 0;
 	}
 }
