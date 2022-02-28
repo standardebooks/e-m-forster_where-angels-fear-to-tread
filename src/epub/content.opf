@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/e-m-forster/where-angels-fear-to-tread</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-02-28T22:15:12Z</dc:date>
+		<meta property="dcterms:modified">2022-02-28T22:15:12Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,15 +44,15 @@
 		<meta property="se:subject">Satire</meta>
 		<dc:description id="description">After an English widow on holiday impetuously falls in love with a handsome young Tuscan, her panicked in-laws send a rescue party.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Soon after the widowed Lilia Herriton arrives at the dusty Tuscan town of Monteriano with her friend Caroline Abbott, she falls in love with Gino Carella, a handsome, and younger, man. When her overbearing in-laws hear of an engagement, they panic—they believe a marriage like that would dishonor their family and the memory of Lilia’s late husband and their child.&lt;/p&gt;
+			&lt;p&gt;Soon after the widowed Lilia Herriton arrives at the dusty Tuscan town of Monteriano with her friend Caroline Abbott, she falls in love with Gino Carella, a handsome—and younger—man. When her overbearing in-laws hear of the engagement, they panic, believing a marriage like that would dishonor their family and the memory of Lilia’s late husband and their child.&lt;/p&gt;
 			&lt;p&gt;Lilia’s brother-in-law, Philip Herriton, rushes to Italy to stop the marriage and “rescue” Lilia from Gino. He soon discovers that he’s too late, and that they’ve already married. Their impulsive decision will have major consequences—not just for the couple itself, but also for Caroline, Philip, and everyone else in their orbit.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;E. M. Forster&lt;/a&gt; was just twenty-six in 1905, when his first novel, &lt;i&gt;Where Angels Fear to Tread&lt;/i&gt;, was published. In a contemporary review, &lt;i&gt;The Manchester Guardian&lt;/i&gt; called it “almost startlingly original” in its setting and the treatment of its motive, but also wondered if Forster could “could be a little more charitable” in future works. In 1991 it was made into a movie starring Helen Mirren, Helena Bonham Carter, Judy Davis, and Rubert Graves.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;Forster&lt;/a&gt; was just twenty-six in 1905 when &lt;i&gt;Where Angels Fear to Tread&lt;/i&gt;, his first novel, was published. In a contemporary review, &lt;i&gt;The Manchester Guardian&lt;/i&gt; called it “almost startlingly original” in its setting and the treatment of its motive, but also wondered if Forster could “could be a little more charitable” in future works. In 1991 it was made into a movie starring Helen Mirren, Helena Bonham Carter, Judy Davis, and Rubert Graves.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2948</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100370319</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">50558</meta>
+		<meta property="se:reading-ease.flesch">75.91</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Where_Angels_Fear_to_Tread</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-m-forster_where-angels-fear-to-tread</meta>
 		<dc:creator id="author">E. M. Forster</dc:creator>
@@ -81,6 +81,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
