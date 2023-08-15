@@ -2,7 +2,11 @@
 <se-lint-ignore>
 	<file path="chapter-6.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-012</code>
+			<reason>Paragraph has two extra end quotes to show a total of three possible responses in dialogue.</reason>
+		</ignore>
+		<ignore>
+			<code>y-019</code>
 			<reason>Paragraph has two extra end quotes to show a total of three possible responses in dialogue.</reason>
 		</ignore>
 	</file>
