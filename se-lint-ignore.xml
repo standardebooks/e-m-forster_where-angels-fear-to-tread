@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-6.xhtml">
-		<ignore>
-			<code>y-012</code>
+		<ignore code="y-012">
 			<reason>Paragraph has two extra end quotes to show a total of three possible responses in dialogue.</reason>
 		</ignore>
 	</file>
